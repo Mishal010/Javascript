@@ -16,13 +16,14 @@ console.log(gameName.startsWith("Zel"));
 console.log(gameName.endsWith("a"));
 console.log(gameName.indexOf("x"));// returns -1 if not found else returns index
 console.log(gameName.replace("Zelda", "Mario"));
+console.log(gameName.concat(" is a great game!"));
+console.log(gameName.replaceAll("a", "o"));
 console.log(gameName.repeat(3));
 console.log(gameName.split("e"));
 console.log(gameName.charAt(2));
 console.log(gameName.substring(1,4));
 console.log(gameName.slice(1,4));// supports negative indexing too
 console.log(gameName.trim());// removes whitespace from start and end
-
 // Strings are immutable i.e cannot be changed
 let str = "Hello";
 // str[0] = "h"; // this will not work
